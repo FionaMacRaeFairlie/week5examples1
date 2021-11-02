@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Checkbox from './Checkbox'
+import LessText from './LessText'
+import InputPhrase from './InputPhrase'
+import InputPhraseND from './InputPhraseNoDependency'
+import UserProfile from './UserProfilewChildren'
 
 function App() {
+  const friends=[{id:1,name:'Jamie'},{id:2,name:'Jim'},{id:3,name:'James'}]
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+           <Checkbox /><br/>
+           <LessText
+              text={`Focused, hard work is the real key
+                to success. Keep your eyes on the goal, 
+                and just keep taking the next step 
+                towards completing it.`}
+              maxLength={35}  />
+               <br/>
+          <InputPhrase />
+          <InputPhraseND />
+          <UserProfile friends={friends} displayName= "Friends" />
+ 
     </div>
   );
 }
-
+   
 export default App;
