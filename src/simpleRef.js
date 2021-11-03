@@ -3,7 +3,10 @@ import React, { useRef } from "react";
 const CustomTextInput = () => {
   const textInput = useRef();
 
-  const focusTextInput = () => textInput.current.focus();
+  const focusTextInput = () =>{
+    textInput.current.focus();
+    console.log(textInput.current.value);
+}
 
   return (
     <>

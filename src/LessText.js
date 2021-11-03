@@ -10,9 +10,9 @@ export default function LessText({ text, maxLength }) {
     <span>
       {hidden ? `${text.substr(0, maxLength).trim()} ...` : text}
       {hidden ? (
-        <a onClick={() => setHidden(false)}> read more</a>
+        <button onClick={() => setHidden(false)}>read more</button>
       ) : (
-        <a onClick={() => setHidden(true)}> read less</a>
+        <button onClick={() => setHidden(true)}> read less</button>
       )}
     </span>
   );

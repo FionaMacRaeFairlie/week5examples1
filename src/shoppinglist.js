@@ -14,7 +14,7 @@ function ShoppingList() {
         ];
       case "remove":
         // keep every item except the one we want to remove
-        return state.filter((_, index) => index != action.index);
+        return state.filter((_, index) => index !== action.index);
       case "clear":
         return [];
       default:
