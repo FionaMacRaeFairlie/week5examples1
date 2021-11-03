@@ -23,8 +23,8 @@ function App() {
           <div className="component"><InputPhrase /></div> 
           <div className="component"><InputPhraseND /></div> 
           <div className="component"><Counter /></div> 
-          <div className="component"><ShoppingList /></div> 
           <div className="component"><CustomTextInput /></div> 
+          <div className="component"><ShoppingList /></div> 
     </div>
   );
 }
