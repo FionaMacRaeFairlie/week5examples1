@@ -3,12 +3,14 @@ import LessText from './LessText'
 import InputPhrase from './InputPhrase'
 import InputPhraseND from './InputPhraseNoDependency'
 import UserProfile from './UserProfilewChildren'
+import Example from './count'
 
 function App() {
   const friends=[{id:1,name:'Jamie'},{id:2,name:'Jim'},{id:3,name:'James'}]
   return (
     <div className="App">
            <Checkbox /><br/>
+           <Example />
            <LessText
               text={`Focused, hard work is the real key
                 to success. Keep your eyes on the goal, 

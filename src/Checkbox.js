@@ -4,7 +4,7 @@ export default function Checkbox(){
   const [checked, setChecked] = useState(false);
 
   useEffect(() => {
-    alert(`checked: ${checked.toString()}`);
+    console.log(checked ? "Yes, checked" : "No, not checked");
   });
 
   return (
