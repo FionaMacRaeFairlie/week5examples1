@@ -2,11 +2,9 @@ import Checkbox from './Checkbox'
 import LessText from './LessText'
 import InputPhrase from './InputPhrase'
 import InputPhraseND from './InputPhraseNoDependency'
-import UserProfile from './UserProfilewChildren'
 import Example from './count'
 
 function App() {
-  const friends=[{id:1,name:'Jamie'},{id:2,name:'Jim'},{id:3,name:'James'}]
   return (
     <div className="App">
            <Checkbox /><br/>
@@ -20,7 +18,6 @@ function App() {
                <br/>
           <InputPhrase />
           <InputPhraseND />
-          <UserProfile friends={friends} displayName= "Friends" />
  
     </div>
   );
