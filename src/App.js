@@ -5,8 +5,8 @@ import InputPhrase from './InputPhrase'
 import InputPhraseND from './InputPhraseNoDependency'
 import Example from './count'
 import Counter from './reducerex'
-import ShoppingList from './shoppinglist' 
 import CustomTextInput from './simpleRef'
+import Stars from './stars';
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
           <div className="component"><InputPhraseND /></div> 
           <div className="component"><Counter /></div> 
           <div className="component"><CustomTextInput /></div> 
-          <div className="component"><ShoppingList /></div> 
+          <div className="component"><Stars /></div> 
     </div>
   );
 }
