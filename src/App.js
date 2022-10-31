@@ -5,8 +5,8 @@ import InputPhrase from './InputPhrase'
 import InputPhraseND from './InputPhraseNoDependency'
 import Example from './count'
 import Counter from './reducerex'
-import ShoppingList from './shoppinglist'
-import CustomTextInput from './simpleRef'; 
+import ShoppingList from './shoppinglist' 
+import CustomTextInput from './simpleRef'
 
 function App() {
   return (
