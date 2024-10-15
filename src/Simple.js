@@ -1,7 +1,6 @@
 import React from 'react';
 
-class Simple extends React.Component {
-  render() {
+function Simple(_) {
     const simpleStyle = {
       color: "white",
       backgroundColor: "green",
@@ -16,5 +15,4 @@ class Simple extends React.Component {
       </div>
     );
   }
-}
 export default Simple;
