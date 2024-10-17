@@ -2,9 +2,8 @@ import React, { useState } from "react";
 import Star from "./Star";
 
 export default function StarRating({ totalStars = 5 }) {
-  const createArray = length => [...Array(length)];
+  const createArray = (length) => [...Array(length)];
   const [selectedStars, setSelectedStars] = useState(3);
-
   return (
     <div>
       {createArray(totalStars).map((n, i) => (
@@ -15,7 +14,7 @@ export default function StarRating({ totalStars = 5 }) {
         />
       ))}
       <p>
-        {selectedStars} of {totalStars} stars
+        {selectedStars} of {totalStars} stars{" "}
       </p>
     </div>
   );

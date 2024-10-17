@@ -3,3 +3,10 @@
   padding: 5px;
   border: solid thin green;
 }
+.buttonStyle {
+  width: 200px;
+  display:inline-block;
+}
+.componentWidth {
+  width:500px;
+}
