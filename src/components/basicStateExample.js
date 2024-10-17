@@ -4,9 +4,9 @@ export default function BasicStateEx() {
   const [fruit, setFruit] = useState("banana");
 
   function handleClick() {
-    setFruit("apple");
+    // setFruit("apple");
     // if ( fruit==="apple") {setFruit("banana")} else {setFruit("apple")};
-    //  fruit==="apple" ? setFruit("banana"):setFruit("apple")
+     fruit==="apple" ? setFruit("banana"):setFruit("apple")
   }
 
   return (
